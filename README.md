@@ -1,4 +1,4 @@
-# wolfieorama.github.io
+# mwenda-eric.github.io
 
 My Personal site and profile repo
 
