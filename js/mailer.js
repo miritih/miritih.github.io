@@ -21,8 +21,8 @@ jQuery(function($)
               'text': msg,
               'to': [
                 {
-                  'email': 'wachirawamunyi@gmail.com',
-                  'name': 'John Munyi',
+                  'email': 'ericmwenda5@gmail.com',
+                  'name': 'Eric Mwenda',
                   'type': 'to'
                 }]
             }
