@@ -6,6 +6,7 @@ body {
   background: #FBFAFA;
   font-size: 14px;
   font-weight: 400;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,8 +16,33 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.google-maps {
+        position: relative;
+        padding-bottom: 50%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 20;
+        left: 10px;
+        width: 90% !important;
+        height: 90% !important;
+    }
+
+.breadcrumb{
+ margin-top:  76px;
+ border-radius: 0px;
+}
+@media (max-width: 767px){
+.breadcrumb {
+   margin-top: 54px;
+  border-radius: 0px;
+}
+}
 #wrapper{
   background: #fff;
+  margin-top:-14px;
 }
 #no_pad{
   padding: 10px 0px 10px;
@@ -503,10 +529,6 @@ i:hover {
 }
 .square-spin img {
   max-width: 64px;
-}
-
-#contactus{
-  margin-top:78px;
 }
 #carousel-area {
   overflow: hidden;
@@ -1974,7 +1996,7 @@ ul li > ul > li.active > a {
   margin-bottom: 30px;
 }
 footer {
-  background: #282828;
+  background: #1D1D1D;
   color: #7C7C7C;
 }
 footer .small-title {
