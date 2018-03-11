@@ -13,7 +13,6 @@
     <!-- Main Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!--Fonts-->
@@ -60,16 +59,16 @@
                   <a class="nav-link" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>     
                 </li>                                     
                 <li class="nav-item">
-                  <a class="nav-link" href="Projects.html" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>     
+                  <a class="nav-link" href="projects.html" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>     
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="gallery.html" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>     
+                  <a class="nav-link active" href="gallery.html" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a>     
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="downloads.html" role="button" aria-haspopup="true" aria-expanded="false">Downloads</a>     
                 </li> 
                  <li class="nav-item">
-                  <a class="nav-link active" href="contact.html" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>     
+                  <a class="nav-link" href="contact.html" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>     
                 </li>                           
               </ul>  
             </div>              
@@ -80,109 +79,21 @@
   </header>
   <nav class="breadcrumb container">
       <a class="breadcrumb-item" href="index.html">Home</a>
-      <span class="breadcrumb-item active"> / Contact Us</span>
+      <span class="breadcrumb-item active"> / Projects</span>
     </nav>
 <div id="wrapper" class="container"> <!-- content container -->
-  <section id="contactus">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="contact-form">
-        <br>
-        <h3>Send Us an Email</h3>
-        <p>Feel free to talk to us.</p>
-        <div class="success alert-success alert" style="display:none" id="suceessmail">Your message has been sent successfully.</div>
-        <div class="alert alert-danger" style="display:none" id="capthafail">Please select captcha.</div>
-        <form method="post" action="https://formspree.io/info@memberhomes.co.ke">
-          <fieldset>
-            <div class="row" style="padding:10px 0px 10px 0px">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 form-group">
-                  <input class="form-control" required="required" id="name" name="name" type="text" placeholder="Name">
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <input class="form-control" required="required" type="email" id="email" name="email" placeholder="Email">
-              </div>
-            </div>
-            <div class="row" style="padding:10px 0px 10px 0px">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 form-group">
-                    <input class="form-control" id="mobile" required="required" name="mobile" type="text" placeholder="Phone">
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 form-group">
-                    <input class="form-control" id="subject" required="required" name="subject" type="text" placeholder="Subject">
-                </div>
-            </div>
-            <div class="row" style="padding:10px 0px 10px 0px">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
-                <textarea class="form-control" name="message" required="required" placeholder="message" rows="4" cols="40"></textarea>
-              </div>
-            </div>
-            <div class="row" style="padding:10px 0px 10px 0px">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="g-recaptcha" data-sitekey="6LeiSkcUAAAAAE_JYJodItMsTwGYUXBo0kBrSDqd"></div>
-              </div>
-              </div>
-               <div class="row" style="padding:10px 0px 10px 0px">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <button class="btn btn-primary btn-lg pull-right" type="submit">SEND
-                </button>
-              </div>
-            </div>
-          </fieldset>
-        </form>
-        <div>
-          <br><br>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
-        <br><br>
-        <div class="address widget">
-            <ul class="contact-us">
-                <li>
-                    <p>
-                      <strong>Head Office:</strong><br> 4th Flr Allimex Plaza, Behind Eka Hotel, Off Mombasa Road<br>
-                    </p>
-
-                    <p>
-                      <strong>Town Office: </strong><br>  207 Cargen House, Harambee Ave, Nairobi
-                    </p>
-                    <i class="fa fa-address-book"></i>
-                    <p>
-                      <strong class="contact-pad">Postal Address:</strong><br>P.O. Box 1819 - 00100
-
-                    </p>
-                </li>
-                <li>
-                  <br>
-                    <p>
-                        <strong>Tel:</strong><br>(+254) 0728-818180, 0770-811851
-                    </p>
-                </li>
-                <li>
-                  <br>
-                    <p>
-                        <strong>Email:</strong><br><a href="mailto:info@memberhomes.co.ke"> info@memberhomes.co.ke</a>
-                    </p>
-                </li>
-            </ul>
-          </div>
-
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-6 google-maps  hidden-xs-down">
-        <h3 class="small-title">Head office</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.751047041173!2d36.842098643110475!3d-1.32528283959943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11c085fe364b%3A0xb5d84beae3a3cd8d!2sAllimex+Plaza!5e0!3m2!1sen!2ske!4v1519397679446" width="300" height="130" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div class="col-md-6 google-maps hidden-xs-down">
-        <h3 class="small-title">Town office</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.177040151202!2d36.82425606474205!3d-1.287391529702195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1127e7f99007%3A0x978325a1a2689b58!2sCargen+House%2C+Harambee+Ave%2C+Nairobi!5e0!3m2!1sen!2ske!4v1519397748664" width="600" height="130" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+  <div id="contactus">
+    <section class="section">
+    <div class="wow fadeIn animated" data-wow-delay="0.3s">
+     <div>Page coming soon.... </div>
     </div>
   </section>        
 </div> 
+</div> 
     <!-- Footer Section -->
-  <footer class="footer container">
+  <!-- <footer class="footer container"> -->
       <!-- Copyright -->
-      <div id="copyright">
+      <!-- <div id="copyright">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-6">
@@ -208,9 +119,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Copyright  End-->
-  </footer>
+  <!-- </footer> -->
     <!-- Footer Section End-->
     
     <!-- Go To Top Link -->
