@@ -116,7 +116,7 @@
             <td>40,000 </td>
             <td>Mhasibu Housing</td>
             <td>Mhasibu Housing Company Ltd</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
           <tr>
@@ -129,7 +129,7 @@
             <td>50,000 </td>
             <td>Mhasibu Housing</td>
             <td>Mhasibu Housing Company Ltd</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
 
@@ -143,7 +143,7 @@
             <td>40,000 </td>
             <td>Mhasibu Housing</td>
             <td>Member Homes LLP</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr> 
           <tr>
@@ -156,7 +156,7 @@
             <td>50,000 </td>
             <td>Mhasibu Housing</td>
             <td>Member Homes LLP</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
           <tr>
@@ -169,7 +169,7 @@
             <td>50,000 </td>
             <td>Mhasibu Housing</td>
             <td>Member Homes LLP</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
           <tr>
@@ -182,7 +182,7 @@
             <td>40,000 </td>
             <td>Mhasibu Housing</td>
             <td>Member Homes LLP</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr> 
           <tr>
@@ -195,7 +195,7 @@
             <td>40,000 </td>
             <td>Mhasibu Housing</td>
             <td>Mhasibu Housing Company Ltd</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
           <tr>
@@ -208,7 +208,7 @@
             <td>- </td>
             <td>ALL SACCOS</td>
             <td>Member Homes LLP</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
           <tr>
@@ -221,7 +221,7 @@
             <td>TBA </td>
             <td>ALL SACCOS</td>
             <td>Mhasibu Housing Company Ltd</td>
-            <td><a href="#" class="btn btn-primary btn-lg">Buy</a></td>
+            <td><a href="#" data-toggle="modal" data-target="#buyform" class="btn btn-primary btn-lg">Buy</a></td>
             <td></td>
           </tr>
         </tbody>
@@ -269,6 +269,90 @@
       <i class="fa fa-angle-up">
       </i>
     </a>
+    <!-- Modal -->
+    <div class="modal fade" id="buyform" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">
+              <img src="assets/img/logo-small1.png" alt="">
+              PURCHASE FORM
+              </h4>
+          </div>
+          <div class="modal-body">
+            <p>To initiate the buying process, please fill in this form</p>
+            <form>
+              <fieldset><legend>MEMBER DETAILS</legend>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="first_name">First Name</label>
+                    <input class="form-control" type="text" name="first_name"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="last_name">Last Name</label>
+                    <input class="form-control" type="text" name="last_name"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="idno">ID No.</label>
+                    <input class="form-control" type="text" name="idno"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="mno">M/No.</label>
+                    <input class="form-control" type="text" name="mno"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="sacco">Name of Sacco:</label>
+                    <input class="form-control" type="text" name="sacco"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="branch">Branch:</label>
+                    <input class="form-control" type="text" name="branch"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="tel">Tel:</label>
+                    <input class="form-control" type="text" name="tel"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email">Email:</label>
+                    <input class="form-control" type="text" name="email"/>
+                  </div>
+                </div>
+              </fieldset>
+              <br>
+              <fieldset><legend>PROJECT SELECTION</legend>
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="project_code">PROJECT CODE:</label>
+                    <input class="form-control" type="text" name="project_code"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="location">LOCATION:</label>
+                    <input class="form-control" type="text" name="location"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="plot_size">Size of one plot:</label>
+                    <input class="form-control" type="text" name="plot_size"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="quantity">Number of plots to buy:</label>
+                    <input class="form-control" type="text" name="quantity"/>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="total">Total value of these plots:</label>
+                    <input class="form-control" type="text" name="toatal"/>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- JavaScript & jQuery Plugins -->
     <!-- jQuery Load -->
@@ -293,6 +377,13 @@
     <script src="assets/js/jquery.vide.js"></script>
      <!-- All JS plugin Triggers -->
     <script src="assets/js/main.js"></script>
+    <script>
+      $('#buyform').modal({
+        backdrop: 'static',
+        keyboard: false,
+        show:false
+      })
+    </script>
     
   </body>
 </html>
