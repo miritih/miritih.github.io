@@ -50,6 +50,9 @@ body {
 .form-group .help-block {
   color: red;
 }
+ul.nav-tabs li a {
+  color: #a11c08;
+}
 .roof-menu ul li.active a:hover {
   opacity: 0.8;
 }
@@ -344,6 +347,12 @@ i:hover {
 }
 .small-title {
   font-size: 22px;
+  color: #a11c08;
+  position: relative;
+  text-align: left;
+}
+.small-title-tab {
+  font-size: 18px;
   color: #a11c08;
   position: relative;
   text-align: left;
