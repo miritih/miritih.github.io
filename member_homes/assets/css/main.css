@@ -17,8 +17,8 @@ body {
   backface-visibility: hidden;
 }
 .project_table{
-  font-weight: 12px;
-  
+  font-size: 12px;
+
 }
 .google-maps {
         position: relative;
