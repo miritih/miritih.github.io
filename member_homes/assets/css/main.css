@@ -16,6 +16,10 @@ body {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+.project_table{
+  font-weight: 12px;
+  
+}
 .google-maps {
         position: relative;
         padding-bottom: 50%; 
